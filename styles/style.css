@@ -1,7 +1,8 @@
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 body {
@@ -9,12 +10,21 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-.container {
-  /* margin: 50px 140px; */
+#banner1,
+ .section-a,
+ .party-2024,
+ .schedule,
+ .best-offer,
+ .container-4 {
+  width: 100%;
+  /* height: auto; */
+  max-width: 1440px;
+  margin: 50px 120px;
 }
 
 .container-1 {
-  background-image: url('../images/Banner-Image.png');
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+              url('../images/Banner-Image.png');
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
@@ -31,7 +41,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
 .banner1-text h4 {
@@ -51,29 +60,12 @@ body {
   width: 50%
 }
 
-.banner-text h4 h2 {
-
-}
-
 /* Section-a */
 .section-a {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.new-year-img {
-  background-image: url(../images/New\ Year\ Photo.png);
-  /* border-radius: 16px; */
-  width: 800px;
-  height: 500px;
-  background-repeat: no-repeat;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-
-  margin-bottom: 120px;
 }
 
 .category-1 h1 {
@@ -110,15 +102,19 @@ body {
   margin-bottom: 50px;
 }
 
-/* Container-2 Section */
+.new-year-img {
+  background-image: url(../images/New\ Year\ Photo.png);
+  width: 800px;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  background-size: cover;
 
-.party-2024, .schedule {
-  width: 100%;
-  height: auto;
-  /* max-width: 1440px; */
-  margin: 50px 120px;
+  margin-bottom: 120px;
 }
 
+/* Container-2 Section */
 .container-2 {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
               url('../images/Vectorrr.png');
@@ -208,6 +204,10 @@ body {
   padding: 110px 385px 50px 385px;
 }
 
+.clr-red {
+  color:#F00;
+}
+
 .btn-primary {
   display: inline-flex;
   place-items: center;
@@ -233,7 +233,37 @@ body {
   align-items: center;
 }
 
+button:hover {
+  background-color: rgb(250, 93, 54);
+}
+
 .btn-primary {
   cursor: pointer;
-  
+}
+
+/* Section-4 */
+
+/* #best-offer {
+  padding: 100px 0;
+} */
+
+#best-offer .container-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.circle-img {
+  width: 365px;
+  height: 365px;
+  /* display: flex; */
+}
+
+.circle-img img {
+  width: 365px;
+  height: 365px;
+  border-radius: 50%;
+  padding: 20px;
+  border: 8px solid #f00;
 }
