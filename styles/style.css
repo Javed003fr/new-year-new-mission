@@ -21,7 +21,7 @@ body {
  #newsletter {
   width: 100%;
   /* height: auto; */
-  max-width: 1600px;
+  max-width: 1320px;
   margin: 50px 120px 120px 120px;
 }
 
@@ -63,7 +63,7 @@ body {
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
-  width: 50%
+  width: 50%;
 }
 
 /* Section-a */
@@ -138,7 +138,7 @@ body {
 }
 
 #year-2024 {
-  width: 50% auto;
+  /* width: 50% auto; */
 }
 
 .banner2-text h3 {
@@ -382,18 +382,6 @@ button:hover {
   z-index: 2;
 }
 
-
-/* .discount-token .shop-img {
-  display: flex;
-  justify-content:last baseline;
-}
-
-.sub-container-5 .gift-box {
-  display: flex;
-  justify-content: center;
-}
- */
-
  /* Portfolio Section */
  .portfolio-header {
   width: 75%;
@@ -555,6 +543,10 @@ button:hover {
 .address, 
 .copy-right  {
   display: flex;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
   justify-content: space-around;
   align-items: center;
   padding: 100px 0 40px 0;
@@ -580,8 +572,4 @@ button:hover {
 .icon {
   width: 50px;
   height: auto;
-}
-
-{
-  display: flex;
 }
