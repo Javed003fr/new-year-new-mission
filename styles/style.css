@@ -16,11 +16,13 @@ body {
  .schedule,
  .best-offer,
  .container-4,
- #holiday-sale {
+ #holiday-sale,
+ #portfolio,
+ #newsletter {
   width: 100%;
   /* height: auto; */
   max-width: 1440px;
-  margin: 50px 120px;
+  margin: 50px 120px 120px 120px;
 }
 
 .container-1 {
@@ -344,3 +346,65 @@ button:hover {
   line-height: 32px;
 }
 
+
+
+/* .discount-token .shop-img {
+  display: flex;
+  justify-content:last baseline;
+}
+
+.sub-container-5 .gift-box {
+  display: flex;
+  justify-content: center;
+}
+ */
+
+ /* Portfolio Section */
+ .portfolio-header {
+  width: 75%;
+ }
+ 
+ .portfolio-header h5 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+ }
+
+ .portfolio-header h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+ }
+
+ .portfolio-header p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 30px;
+ }
+
+ .img-section1,
+ .img-section2 {
+  display: flex;
+  gap: 20px;
+  width: 425px;
+  height: 450px;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .img-section1 {
+  margin-bottom: 20px;
+ }
