@@ -15,7 +15,8 @@ body {
  .party-2024,
  .schedule,
  .best-offer,
- .container-4 {
+ .container-4,
+ #holiday-sale {
   width: 100%;
   /* height: auto; */
   max-width: 1440px;
@@ -74,7 +75,6 @@ body {
   font-family: Inter;
   font-size: 88px;
   font-weight: 700;
-
   margin-top: 120px;
   margin-bottom: 0;
 }
@@ -85,7 +85,6 @@ body {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
-
   margin-top: 50px;
   margin-bottom: 5px;
 }
@@ -98,7 +97,6 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
   margin-bottom: 50px;
 }
 
@@ -110,7 +108,6 @@ body {
   position: relative;
   background-position: center;
   background-size: cover;
-
   margin-bottom: 120px;
 }
 
@@ -146,7 +143,8 @@ body {
   font-size: 64px;
   font-weight: 900;
   line-height: 88px;
-  letter-spacing: .04px;
+  letter-spacing: .03px;
+  margin-bottom: 30px;
 }
 
 .banner2-text p {
@@ -155,29 +153,25 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 25px;
 }
 
-.banner2-text h6 {
+.btn-join {
   color: #FFF;
-  text-align: center;
+  text-align: left;
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  cursor: pointer;
+  padding: 0 10px;
 }
 
 .banner2 {
   display: flex;
   justify-content: space-around;
-  /* gap: 10px; */
   align-items: center;
-}
-
-.banner-img .banner2-text {
-  width: 60%;
-  grid-template-columns: 10px;
-  max-width: 680px;
 }
 
 /* Section-3 */
@@ -225,6 +219,8 @@ body {
 
   border-radius: 8px;
   border: none;
+
+  cursor: pointer;
 }
 
 .btn {
@@ -234,30 +230,57 @@ body {
 }
 
 button:hover {
-  background-color: rgb(250, 93, 54);
-}
-
-.btn-primary {
-  cursor: pointer;
+  background-color: rgb(240, 12, 4);
 }
 
 /* Section-4 */
-
-/* #best-offer {
-  padding: 100px 0;
-} */
-
-#best-offer .container-4 {
-  display: flex;
+#best-offer {
+  display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
+}
+
+.container-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.new-best-offer h5 {
+  color: #F00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.new-best-offer h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.new-best-offer p,
+.happy-ny-icon p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 .circle-img {
   width: 365px;
   height: 365px;
-  /* display: flex; */
+  margin-right: 50px;
 }
 
 .circle-img img {
@@ -267,3 +290,57 @@ button:hover {
   padding: 20px;
   border: 8px solid #f00;
 }
+
+.container-4 .new-best-offer .circle-img .happy-ny-icon {
+  width: 465px;
+  height: 465px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.happy-ny-icon h3 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Section-5 */
+.function {
+  max-width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.function h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.function h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.function p {
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
